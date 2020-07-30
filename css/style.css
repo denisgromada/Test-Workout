@@ -1,0 +1,109 @@
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+}
+
+h1, p {
+    margin: 0;
+    line-height: 1;
+}
+
+.main{
+    display: flex;
+}
+
+.title{
+    font-family: 'Teko', sans-serif;
+    font-size: 130px;
+    margin-left: 5%;
+}
+
+.title-wrapper{
+    height: 40%;
+}
+
+.img {
+    background:url("../img/image2.png");
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 4% 50px 4%;
+    box-sizing: border-box;
+    background-size:cover;
+}
+
+.arrow{
+    margin-left: 50px;
+}
+
+.img-lg {
+    background:url("../img/image1.png");
+    background-size:cover;
+    width:80%;
+    height: 100vh;
+    padding: 50px 4%;
+    box-sizing: border-box;
+}
+
+
+.desc-wrapper {
+    display: flex;
+    align-items: flex-end; 
+    justify-content: flex-end;
+    height: 59%;
+}
+
+.desc-title{
+    font-family: 'Teko', sans-serif;
+    font-size: 130px;
+    margin-left:0
+    
+}
+
+.description {J
+    max-width: 610px;
+}
+
+@media (max-width: 768px) {
+
+    .title{
+        font-size: 90px;
+    }
+
+    .desc-title{
+        font-size: 90px;
+        
+    }
+
+    .img {
+        padding: 0 2% 50px 2%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .img {
+        display: none;
+    }    
+
+    .img-lg {
+        width:100%;
+    }
+
+    .title{
+        font-size: 60px;
+    }
+
+    .desc-title{
+        font-size: 60px;
+        
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+}
