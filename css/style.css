@@ -63,9 +63,10 @@ h1, p {
     
 }
 
-.description {J
+.description {
     max-width: 610px;
 }
+
 
 @media (max-width: 768px) {
 
